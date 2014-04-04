@@ -82,7 +82,7 @@
 			}
 		}
 		else {
-			$form_data = elgg_echo('group_member_invite:nocollections');
+			$form_data .= elgg_echo('group_member_invite:nocollections');
 		}
 		
 		$link = elgg_view('output/url', array(
